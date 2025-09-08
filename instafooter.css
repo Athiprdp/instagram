@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(139, 137, 137);
+  padding-bottom: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 20px;
+  
+}
+.info a {
+  color: rgb(139, 137, 137);
+  text-decoration: none;
+}
+.info a:hover {
+  text-decoration: underline;
+}
